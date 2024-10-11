@@ -15,17 +15,13 @@ const BlogItem = ({ title, category, description, image, subcategory }) => {
         {category}
       </p>
       <div className="px-5">
-        <h5 className="mb-2 text-lg font-medium tracking-tight text-gray-900">
+        <h5 className="mb-1 text-lg font-medium tracking-tight text-gray-900 mt-2">
           {title}
         </h5>
         <h6 className="font-medium text-[15px] underline">{subcategory}</h6>
         <p className="mb-3 text-sm tracking-tight text-gray-700">
           {description}
         </p>
-        <div className="flex items-center gap-1 font-semibold mb-2">
-          Read More{" "}
-          <Image className="w-[20px] mt-1" src={assets.rightarrow} alt="" />
-        </div>
       </div>
     </div>
   );

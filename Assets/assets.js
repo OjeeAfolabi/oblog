@@ -27,7 +27,7 @@ export const blog_data = [
     id: 1,
     title: "Healthy Tips",
     description:
-      "To maintain sound health, eat a balanced diet rich in fruits, vegetables, and whole grains. Exercise regularly, stay hydrated, and get enough sleep. Manage stress through mindfulness or hobbies, and avoid harmful habits like smoking. Regular check-ups with your doctor are also essential for early detection and prevention.",
+      "To maintain sound health, eat a balanced diet rich in fruits, vegetables, and whole grains. Exercise regularly, stay hydrated, and get enough sleep. Manage stress through mindfulness or hobbies, and avoid harmful habits like smoking.",
     image: blogpost_health,
     date: Date.now(),
     category: "Health",
