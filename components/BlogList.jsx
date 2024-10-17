@@ -32,14 +32,14 @@ const BlogList = () => {
           Tech
         </button>
         <button
-          onClick={() => setMenu("Art and 3D")}
+          onClick={() => setMenu("Arts and 3D")}
           className={
-            menu === "Art and 3D"
+            menu === "Arts and 3D"
               ? "bg-black text-white py-1 px-4 rounded-sm"
               : ""
           }
         >
-          Art & 3D
+          Arts & 3D
         </button>
         <button
           onClick={() => setMenu("Sport")}
@@ -50,29 +50,31 @@ const BlogList = () => {
           Sports
         </button>
         <button
-          onClick={() => setMenu("Travel and Culture")}
+          onClick={() => setMenu("Travel And Adventure")}
           className={
-            menu === "Travel and Culture"
+            menu === "Travel And Adventure"
               ? "bg-black text-white py-1 px-4 rounded-sm"
               : ""
           }
         >
-          Travel and Culture
+          Travel And Adventure
         </button>
       </div>
       <div className="flex flex-wrap gap-x-3 justify-around px-4">
-        {blog_data.map((item, index) => {
-          return (
-            <BlogItem
-              key={index}
-              image={item.image}
-              title={item.title}
-              description={item.description}
-              category={item.category}
-              subcategory={item.subcategory}
-            />
-          );
-        })}
+        {blog_data
+          .filter((item) => (menu === "All" ? true : item.category === menu))
+          .map((item, index) => {
+            return (
+              <BlogItem
+                key={index}
+                image={item.image}
+                title={item.title}
+                description={item.description}
+                category={item.category}
+                subcategory={item.subcategory}
+              />
+            );
+          })}
       </div>
     </div>
   );

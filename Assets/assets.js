@@ -9,6 +9,8 @@ import charles from "./charles.jpg";
 import blogpost_art from "./blogpost_art.png";
 import blogpost_passing from "./blogpost_Football_pass.png";
 import messi from "./messi.jpeg";
+import blogpost_travel from "./travel.jpg";
+
 
 export const assets = {
   logo,
@@ -20,6 +22,7 @@ export const assets = {
   christianah,
   blogpost_art,
   blogpost_passing,
+  blogpost_travel
 };
 
 export const blog_data = [
@@ -74,7 +77,7 @@ export const blog_data = [
     title: "Cultural Experiences And Tradition",
     description:
       "Web development is an exciting field where you can create amazing applications. Start with HTML, CSS, and JavaScript, and build your skills step-by-step. Happy coding!",
-    image: blogpost_tech,
+    image: blogpost_travel,
     date: Date.now(),
     category: "Travel And Adventure",
     author: "Mosh Hamedani",
