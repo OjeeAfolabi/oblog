@@ -1,16 +1,19 @@
 "use client";
 import { assets } from "@/Assets/assets";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-const BlogItem = ({ title, category, description, image, subcategory }) => {
+const BlogItem = ({ title, category, description, image, subcategory, id }) => {
   return (
     <div className=" w-[200px] md:w-[250px] lg:w-[250px] bg-white border border-black hover:shadow-[-7px_7px_0px_#000000] mb-[1rem] rounded-2xl">
+      <Link href={`/blogs/${id}`}>
       <Image
         className="inherit h-[200px] border border-black rounded-2xl"
         src={image}
         alt=""
       />
+      </Link>
       <p className="bg-black text-white inline-block ml-5 mt-5 px-1 text-base">
         {category}
       </p>

@@ -24,9 +24,9 @@ const NavBar = () => {
         </button>
       </div>
       <div className="text-center my-8">
-        <h1 className="font-medium text-3xl sm:text-5xl">Latest Blogs</h1>
+        <h1 className="font-medium text-3xl sm:text-5xl">OBLOG</h1>
         <p className="mt-10 max-w-[740px] m-auto text-xs sm:text-base">
-          Welcome To OBLOG. . .
+          See Latest Blogs . . . 
         </p>
         <form
           className="flex border rounded border-solid border-black justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 shadow-[-7px_7px_0px_#000000] "
