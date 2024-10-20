@@ -60,7 +60,7 @@ const BlogList = () => {
           Travel And Adventure
         </button>
       </div>
-      <div className="flex flex-wrap gap-x-3 justify-around px-4">
+      <div className="flex flex-wrap px-2 gap-x-5 justify-center">
         {blog_data
           .filter((item) => (menu === "All" ? true : item.category === menu))
           .map((item, index) => {

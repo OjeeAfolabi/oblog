@@ -64,7 +64,7 @@ export const blog_data = [
     id: 4,
     title: "Football",
     description:
-      "The art of passing in football involves precision, timing, and vision. Effective passing creates opportunities, maintains possession, and controls the game's tempo. Mastery requires practice and understanding of teammates' movements.",
+      "The art of passing in football involves precision, timing, and vision. Effective passing creates opportunities, maintains possession, and controls the game's tempo.",
     image: blogpost_passing,
     date: Date.now(),
     category: "Sport",
