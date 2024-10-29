@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='flex justify-around flex-col sm:gap-0 sm:flex-row bg-black py-5 items-center'>
         <FaBlog className="text-white size-6"/>
         <p className='text-white text-sm'>
-            All Rights Reserved. Copyright @Oblog
+            All Rights Reserved. Copyright&copy; Oblog
         </p>
         <div className="flex gap-x-2">
         <FaFacebook className="text-[#4267b2] size-[1.1rem]"/>

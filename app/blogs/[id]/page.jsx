@@ -1,7 +1,11 @@
-import React from "react";
+"use client"
+import React, { useState } from 'react'
 
-const page = ({ params }) => {
-  return <div>{params.id}</div>;
-};
+const page = ({params}) => {
+    const [data, setData]= useState(null)
+  return (
+    <div>{params.id}</div>
+  )
+}
 
-export default page;
+export default page
