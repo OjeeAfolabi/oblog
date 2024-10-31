@@ -6,6 +6,8 @@ import mosh from "./mosh.jpeg";
 import blogpost_tech from "./blogpost_tech.png";
 import christianah from "./christy_1.png";
 import charles from "./charles.jpg";
+import admin from "./admin-pic.jpg";
+import upload_icon from "./upload_icon.jpg";
 import blogpost_art from "./blogpost_art.png";
 import blogpost_passing from "./blogpost_Football_pass.png";
 import messi from "./messi.jpeg";
@@ -22,7 +24,9 @@ export const assets = {
   christianah,
   blogpost_art,
   blogpost_passing,
-  blogpost_travel
+  blogpost_travel,
+  admin,
+  upload_icon
 };
 
 export const blog_data = [
